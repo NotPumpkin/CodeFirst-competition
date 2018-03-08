@@ -1,0 +1,102 @@
+<DOCTYPE! html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Energy for Transport">
+        <meta name="author" content="Carolina Linhares">
+
+        <title>Energy for Transport</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Theme CSS -->
+        <link href="css/carolina.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h1>Energy for Transport</h1>
+                    <p> See how much energy you spend in commuting for work/studying and how much CO2 is emited. Input the required information to calculate your transport energy footprint.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <form name="formE" class="form-inline">
+                    <div class="col-lg-6" style="padding-top: 40px; padding-left: 40px;">
+
+                        <label>Name:</label>
+                        <input class="form-control" type="text" name="name" placeholder="Tell us your name" /> <br><br>
+
+                        <label>Distance from home to work/study*: (km)</label>
+                        <input class="form-control" type="text" name="dist" placeholder="Insert distance" /> <br><br>
+
+                        <label>Type of car:</label>
+                        <select class="form-control" name="type">
+                            <option value="petrol"> Petrol car </option>
+                            <option value="diesel"> Diesel car </option>
+                        </select> <br><br>
+
+                        <label>Fuel economy* (Km/L):</label>
+                        <input class="form-control" type="text" name="fuel" placeholder="For example, 12 Km/L" /> <br><br>
+
+                        <input class="form-control inline" type="checkbox" id="notalone" name="notalone" value="notalone"> Riding with other people? <br><br>
+                        <div id="iaddpeople">
+                            <label> Number of people in the car*:</label>
+                            <input class="form-control" type="text" name="qtt" /> <br><br>
+                        </div>
+
+
+                        <p class="disclaimer"> *Mandatory fields</p>
+
+
+
+                        <a href="#" class="btn btn-primary btn-xl" id="calculate" style="margin-right: 10px;" onClick="processFormE()">Calculate</a>
+                        <input class="btn btn-primary" type="reset" value="Reset" /> <br>
+                        <br>
+                        <br>
+
+
+
+                    </div>
+                    <div class="col-lg-6 side-pic">
+                        <img class="img-responsive sm-center car-pic" src="images/highway.jpg" alt="Logos">
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- jQuery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+
+        <!-- Theme JavaScript -->
+        <script src="js/form.js"></script>
+        <script src="js/eneryjQ.js"></script>
+        <script src="js/energy.js"></script>
+
+
+
+    </body>
