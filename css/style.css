@@ -1,0 +1,37 @@
+header {
+      text-align: center;
+      background: url('http://www.mikereyfman.com/Photography-Landscape-Nature/Palouse-Eastern-Washington-American-Tuscany/photos/MR0130.jpg');
+      background-size: cover;
+      color: white;
+    }
+article {
+  font-size: 32px;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  background-color: rgba(225, 225, 225, 0.8);
+}
+
+h1 {
+  font-family: 'Holtwood One SC', serif;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+  background-color: rgba(32, 75, 135, 1);
+}
+
+p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
