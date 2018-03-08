@@ -183,3 +183,7 @@ footer a{
     border-bottom-style: inset;
     border-radius: 30px;
 }
+
+.after-nav{
+    margin-top: 70px;    
+}
