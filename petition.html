@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Sign the Petition">
-        <meta name="author" content="Carolina Linhares">
+        <meta name="author" content="Gabrielle Appleby">
 
         <title>Sign the Petition</title>
 
@@ -14,7 +14,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Theme CSS -->
-        <link href="css/carolina.css" rel="stylesheet">
+        <link href="css/petition.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -52,25 +52,52 @@
             <!-- /.container-fluid -->
         </nav>
 
-        <!-- Form About us-->
+
         <section class="container content-section after-nav">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-sm-12">
                     <h1 class="text-left">Sign the Petition</h1>
-
-                     <!-- CONTINUE FROM HERE-->
-
+                    <p> Let the government know that the way things are currently run is putting the UK in crises. Demand that Theresa May supports clean, renewable power!</p>
 
                 </div>
             </div>
         </section>
 
+        <div class="container">
+            <div class="row">
+                <form name="form" class="form-inline">
+                    <div class="col-sm-4" style="padding-top: 40px; padding-left: 40px;">
 
-        <!-- jQuery -->
-        <script src="js/jquery-3.3.1.min.js"></script>
+                        <label>Name:</label>
+                        <input class="form-control" type="text" name="name" placeholder="Tell us your name" /> <br><br>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+                        <label>*Email: </label>
+                        <input class="form-control" type="text" name="email" placeholder=example@gmail.com /> <br><br>
+
+
+                        <input class="form-control" type="checkbox"  name="contact" > Are you happy to be contacted by email? <br><br>
+
+
+
+
+                        <p class="disclaimer"> *Mandatory fields</p>
+
+
+
+                        <a href="#" class="btn btn-primary btn-m" id="sign" style="margin-right: 10px;" onClick="alert('Thank you for signing!') ">Sign</a>
+                        <br>
+                        <br>
+                    </div>
+                </form>
+
+                <div class="col-sm-4 side-pic sm-center">
+                    <img class="img-responsive sm-center windmill-pic" src="images/windmill.jpeg" alt="Logos">
+                </div>
+              </div>
+            </div>
+
+
+
 
         <footer>
                <div class="container">
@@ -96,4 +123,13 @@
                <p style="color:darkgray; text-align:center; padding-top:20px;">Copyright &copy; Gabrielle Appleby 2018</p>
            </footer>
 
+
+           <!-- jQuery -->
+           <script src="js/jquery-3.3.1.min.js"></script>
+
+           <!-- Bootstrap Core JavaScript -->
+           <script src="js/form.js"></script>
+           <script src="js/eneryjQ.js"></script>
+           <script src="js/energy.js"></script>
+           <script src="js/bootstrap.min.js"></script>
     </body>
