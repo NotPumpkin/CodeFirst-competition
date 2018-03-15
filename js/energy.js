@@ -10,6 +10,7 @@ var fuel;
 var energy;
 var litre;
 var co2;
+var price;
 
 
 
