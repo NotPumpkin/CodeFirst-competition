@@ -70,10 +70,13 @@ function processFormE() {
         co2 = litre * 2.60016; 
     }
     
+    price = 260 * 0.13 * energy;
+    
     energy = energy.toFixed(2);
     co2 = co2.toFixed(2);
+    price = price.toFixed(2);
     
-    alert("Hi, " + user + "! In one roundtrip to work/study you are using " + energy + " kWh of energy. Plus, you are emitting " + co2 + " kgCO2e in each trip.")  
+    alert("Hi, " + user + "! In one roundtrip to work/study you are using " + energy + " kWh of energy. Plus, you are emitting " + co2 + " kgCO2e in each trip. If you were to pay for that, this amount of energy would cost you £" + price + " per year.")  
     
 }
 
