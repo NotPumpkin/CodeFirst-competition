@@ -1,87 +1,105 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Petition for Sustainable Energy</title>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC|Yanone+Kaffeesatz" rel="stylesheet">
-    <script src="​https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js​"></script>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:900i" rel="stylesheet">
+        <!-- Set Meta Data -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Index Page">
+        <meta name="author" content="Gabrielle Appleby">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Link Stylesheets and Google Fonts-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC|Yanone+Kaffeesatz" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:900i" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <title>
-        Petition for Sustainable Energy
-    </title>
-</head>
 
-<body>
+        <!-- Link JQuery, Bootstrap and Scripts JS files -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/animating.js"></script>
+    </head>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="margin:0px">
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="margin:0px">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="petition.html">Sign the Petition</a></li>
+                        <li><a href="info.html">Interesting Facts </a></li>
+                        <li><a href="energy.html">Energy Calculation </a></li>
+                        <li><a href="contact.html">About Us </a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+        <header style="margin-top:51px">
+            <img id="toMove" src="images/turbine.png" class='center-block' />
+            <h1 id="headerH1">Petition for Sustainable Energy</h1>
+            <h2>Sign up to protect the environment!</h2>
+        </header>
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                <a class="navbar-brand active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </div>
+            <article>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="postTitles">So what&#39;s it all about?</h1>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="petition.html">Sign the Petition</a></li>
-                    <li><a href="info.html">Interesting Facts </a></li>
-                    <li><a href="energy.html">Energy Calculation </a></li>
-                    <li><a href="contact.html">About Us </a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+                        <p>While other countries rapidly expand renewables, clean energy in the UK is facing an uncertain future. Cuts to the industry, dished out under the previous government, have already triggered thousands of job losses. And now Brexit is putting investment in the industry on even shakier ground. </p>
+
+                        <p>But right now, Theresa May's government has a chance to get things back on track. </p>
+
+                        <p>Government ministers are currently drawing up plans for UK clean power. So together, let&#39;s tell the government that, instead of building risky and expensive nuclear plants - like Hinkley - and instead of forcing fracking on us, they must support clean, renewable power.</p>
+                    </div>
+                    <div id="tweets" class="col-md-4">
+                        <a class="twitter-timeline"  href="https://twitter.com/hashtag/Sustainability" data-widget-id="974111262786379776">#Sustainability Tweets</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div> 
+                </div>
+            </article>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-
-    <header style="margin-top:51px">
-        <img src="https://openclipart.org/download/244476/TJ-Openclipart-45--science--energy--windmill-2--21-3-16---final.svg" class='img-responsive' />
-        <h1>
-            Petition for Sustainable Energy
-        </h1>
-        <h2>
-            Sign up to protect the environment!
-        </h2>
-    </header>
-    <article>
-        <p>While other countries rapidly expand renewables, clean energy in the UK is facing an uncertain future. Cuts to the industry, dished out under the previous government, have already triggered thousands of job losses. And now Brexit is putting investment in the industry on even shakier ground. </p>
-
-        <p>But right now, Theresa May's government has a chance to get things back on track. </p>
-
-        <p>Government ministers are currently drawing up plans for UK clean power. So together, let’s tell the government that, instead of building risky and expensive nuclear plants - like Hinkley - and instead of forcing fracking on us, they must support clean, renewable power.</p>
-    </article>
-
-
-
-
-
-
-
-
-    <!-- jQuery -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-
-    <script src="js/scripts.js"></script>
-
-
-
-</body>
-
-
-
+         <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1 text-center">
+                            <h4 style="margin-top: 10px; margin-bottom: 15px; text-transform:none; font-size: 30px; font-weight:light; color: white;">Follow this initiative!</h4>
+                            
+                            <br>
+                            <ul class="list-inline social">
+                                <li>
+                                    <a href="https://www.facebook.com/codefirstgirls/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/CodeFirstGirls" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/code-first-girls/" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p style="color:darkgray; text-align:center; padding-top:20px;">Copyright &copy; Gabrielle Appleby 2018</p>
+            </footer>
+    </body>
 </html>
